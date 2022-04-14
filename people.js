@@ -14,7 +14,7 @@ const getPeople = async function getPeople() {
 function checkIsValidDomain(emailDomain) {
   if (emailDomain === undefined) throw "Error: Input is undefined";
   if (typeof(emailDomain) !== "string") throw "Error: Input is not in proper format";
-  if (emailDomain.trim().length = 0) throw "Error: Empty spaces not allowed";
+  if (emailDomain.trim().length == 0) throw "Error: Empty spaces not allowed";
   if (emailDomain.lastIndexOf('.') < 0) throw "Error: Does not contain dot";
   if (emailDomain.length - emailDomain.lastIndexOf('.') <= 2) throw "Error: Does not contain 2 letters after the dot";
 }
