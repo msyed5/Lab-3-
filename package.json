@@ -9,6 +9,11 @@
   "author": "Mehrab Syed 10447042",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.25.0"
+    "axios": "^0.25.0",
+    "gitignore": "^0.7.0",
+    "node": "^17.7.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.13.0"
   }
 }
